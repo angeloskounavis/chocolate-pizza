@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.dashed-line {
+  padding: 6px;
+  background-image: url(../assets/hr-img.png);
+  background-repeat: repeat;
+  margin-bottom: 30px;
+}
+
+body {
+  width: 901px;
+  margin:auto;
+}
+header section img {
+margin-right: 10px;
+}
+header section p {
+color:#999
+}
+
+header {
+display: flex;
+margin: 30px 0px;
+}
+
+header section {
+  display: flex;
+  width: 100%;
+}
+
+header ul {
+  width: 100%;
+  text-align: right;
+}
+
+header section h1 {
+  font-size: 2rem;
+  font-family: 'cookie';
+  
+}
+
+main h1 {
+  font-size: 2.2rem;
+}
+
+main section div p {
+  color: gray;
+}
+
+main section {
+  display: flex;
+}
+
+#print {
+  display: flex;
+  justify-content: space-between;
+}
+
+#pizza {
+  margin:30px 0px;
+ 
+}
+
+main article p {
+  text-indent: 25px;
+  margin-bottom:2.2em;
+  font-size: 1.25em;
+}
+#vanessabio {
+  display:flex;
+  justify-content: space-between;
+
+}
+
+#vanessabio img{
+margin-right: 24px;
+}
+
+#vanessabio button {
+  padding: 0px 20px;
+  background-color:rgba(91, 22, 34, 0.33);
+  width: 10rem;
+  height: 2.5rem;
+  margin-left: 40px;
+}
+
+
+#print-row {
+  display:flex;
+  justify-content: space-between;
+}
+
+#vanessabio h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+#vanessabio p {
+  font-size: 1.1em;
+}
+
+.bottomLogo {
+  display:flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.bottomLogo hr {
+  width:100%;
+  margin:auto;
+}
+
+.bottomLogo img {
+  width: 32px;
+  margin: 0px 10px;
+}
+
+footer {
+padding: 30px 0px;
+
+}
+
+footer p {
+text-align: center;
+color: #999;
+}
+
