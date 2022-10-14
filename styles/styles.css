@@ -37,6 +37,10 @@ header ul {
   text-align: right;
 }
 
+header ul :nth-child(6) {
+  margin-right: 12px;
+}
+
 header section h1 {
   font-size: 2rem;
   font-family: 'cookie';
@@ -70,6 +74,28 @@ main article p {
   margin-bottom:2.2em;
   font-size: 1.25em;
 }
+
+#leftList, #rightList {
+  font-size: 1.2rem;
+  position: relative;
+  left: 100px;
+  top: -295px;
+}
+
+#rightList {
+  top: -496px;
+  left: 500px;
+  margin-bottom: -300px;;
+}
+
+#leftList li, #rightList li {
+  margin-bottom: .9rem;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
 #vanessabio {
   display:flex;
   justify-content: space-between;
